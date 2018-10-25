@@ -9,11 +9,12 @@ import java.lang.*;
  * Github Repo: http://www.github.com/vywt
  */
 
- //Concept: Iterate through list of words, sort each word using Collections.sort() and add into a HashMap<String, String>
- //While iterating, check if HashMap contains an equivalent sorted string. If yes, remove that word and print both. 
+ //Concept: Iterate through list of words, sort each word using Arrays.sort() and add into a HashMap<String, String>
+ //While iterating, check if HashMap contains an equivalent sorted string. If yes, print both words. 
  //Else, continue iterating.
 
-//Assume: All inputs are ASCII-256 set of characters, must show ALL possible pairings e.g.(spare, parse, spear) => 6 pairings
+//Assume: All inputs are lowercase strings of only alphabets, must show ALL possible pairings e.g.(spare, parse, spear) => 3 pairings
+//which are spare-parse, spare-spear, parse-spear
 
 
 class SecondSolution {
